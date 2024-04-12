@@ -1,0 +1,21 @@
+h1{ text-align: center; }
+#image-gallery{ 
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: 10%;
+	}
+h3{ text-align: center;}
+figure{text-align:center;}
+figcaption{
+	text-align: center;
+	font-style: italic;
+	font-size: .75em;}
+a:hover{
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+	float: right;
+	margin-bottom: 20px;
+	margin-top: 5%;
+}
