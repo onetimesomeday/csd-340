@@ -2,4 +2,4 @@
 ## Contributors
   * Nathan Braun
   * Gerardo Cordero
-This  repo is for class CSD340
+
