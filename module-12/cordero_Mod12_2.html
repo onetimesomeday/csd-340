@@ -1,0 +1,71 @@
+<!-- Gerardo Cordero Module 12.2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link href="cordero_Mod3_3.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+    <h1>Assignment 12.2: JavaScript - Part 4</h1>
+	<br />
+ 	<div id="left">
+	<h3>Top 10 Favorite Books</h3>
+	<button onclick = "topToBottom()">Top to Bottom</button>
+	<button onclick = "bottomToTop()">Bottom to Top</button>
+	<ol>
+		<li>Becoming Supernatural</li>
+		<li>Monster Blood</li>
+		<li>Harry Potter and the Half Blood Prince</li>
+		<li>The Alchemist</li>
+		<li>Baby teeth</li>
+		<li>A child called it.</li>
+		<li>The four agreements</li>
+		<li>Diary of the wimpy kid</li>
+		<li>The 48 Laws of Power</li>
+		<li>The Secret</li>
+	</ol>
+	</div>
+
+	<script>
+		var a = [
+			"1. Becoming Supernatural", 
+			"2. Monster Blood",
+			"3. Harry Potter and the Half Blood Prince", 
+			"4. The Alchemist", 
+			"5. Baby teeth", 
+			"6. A child called it.", 
+			"7. The four agreements", 
+			"8. Diary of the wimpy kid", 
+			"9. The 48 Laws of Power", 
+			"10. The Secret"
+			];
+		var b = [];
+		
+		function topToBottom(){
+   			 alert(a.join('\n'));
+		}
+		
+		function bottomToTop(){
+			a.reverse();
+			alert(a.join('\n'));
+		}
+	</script>
+	<div id="right">
+	<h3>5 Things I've Learned Since the Course Started</h3>
+	<ul>
+		<li>I learned how to create different tags</li>
+		<li>I learned how to add different colors to texts</li>
+		<li>I learned how to modify text to look a certain way</li>
+		<li>I learned how to create lists.</li>
+		<li>I learned how to create links and add effects</li>
+	</ul>
+	</div>
+	<div id="last">
+		<a href="https://onetimesomeday.github.io/csd-340/"> Landing/Portal </a>
+	</div>
+    </div>
+</body>
+
+</html>

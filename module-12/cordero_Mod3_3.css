@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+}
+#left {
+	width:45%;
+	float: left;
+	border: 1px solid red;
+	border-radius: 15px;
+	padding: 10px;
+}
+#right {
+	width:45%;
+	float:right;
+	border: 1px dashed red;
+	border-radius: 15px;
+	padding: 10px;
+}
+#last {
+	width:100%;
+	margin-top:60%;
+}
+h3{
+	font-weight:500;
+}
+ul, ol{
+	font-weight:300;
+}
+ul{
+	list-style-type: upper-roman;
+}
+a:hover{
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+	float: right;
+	margin-bottom: 20px;
+}
